@@ -9,6 +9,7 @@ const Dashboard = () => {
   const [level, setLevel] = useState("");
   const [editId, setEditId] = useState(null);
   const [message, setMessage] = useState("");
+  
 
   useEffect(() => {
     const fetchSkills = async () => {
